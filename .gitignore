@@ -1,0 +1,20 @@
+# Ignore compiled files and executables
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# Ignore build directories (common in C++ projects)
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore editor and OS-specific files
+.vscode/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
