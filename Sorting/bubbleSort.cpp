@@ -16,7 +16,7 @@ using namespace std;
     - second loop for the list would be decreasing the search amount 
     - compare with the arr[j] > arr[j + 1]
     - Swap the values in the array
-    
+
 */
 
 int main(){
@@ -26,10 +26,17 @@ int main(){
     int n = arr.size();
 
     for(int i = 0; i < n - 1; i++){
+
+        bool isSwap = false;
+
         for(int j = 0; j < n - i - 1; j++){
             if(arr[j] > arr[j + 1]){
                 swap(arr[j], arr[j + 1]);  // swap elements
             }
+        }
+
+        if(!isSwap){ // array is already sorted
+            return;
         }
     }
 
