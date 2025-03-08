@@ -35,6 +35,6 @@ int main(){
     // size() - to get the size of the stack
 
     // swap() - to swap the elements of the stacks with two different stacks
-    
+
     return 0;
 }
